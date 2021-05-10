@@ -53,4 +53,23 @@ border-color: #5a5a5a;
     color: black;
     border-radius: 25px;
     transition: 0.50s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background-color: #708090;
+    transition: background-color 0.5s;
+
+}
+button{
+    border-radius: 25px;
+    width: 95px;
+    height: 27px;
+    border:  2px #5a5a5a solid;
+    background: white;
+    cursor: pointer;
+}
+button:hover{
+   background-color: #708090;
+   transition: background-color 0.5s;
 }
